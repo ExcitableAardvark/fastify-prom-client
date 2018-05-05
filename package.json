@@ -1,0 +1,39 @@
+{
+  "name": "fastify-prom-client",
+  "version": "0.1.0",
+  "description": "instrument a fastify application for consumption by prometheus",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && jest"
+  },
+  "keywords": [
+    "Fastify",
+    "prometheus"
+  ],
+  "author": "Excitable Aardvark <excitableaardvark@tutanota.de>",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ExcitableAardvark/fastify-prom-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ExcitableAardvark/fastify-prom-client/issues"
+  },
+  "homepage": "https://github.com/ExcitableAardvark/fastify-prom-client#readme",
+  "dependencies": {
+    "fastify-plugin": "^1.0.1",
+    "prom-client": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fastify": "^1.4.0",
+    "jest": "^22.4.3",
+    "request": "^2.85.0"
+  }
+}
